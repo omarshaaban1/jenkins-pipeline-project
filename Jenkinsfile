@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo "Building ${APP_NAME}"
+                echo "Building ${APP_NAME} - Webhook Test"
                 sh 'echo Build completed'
             }
         }
